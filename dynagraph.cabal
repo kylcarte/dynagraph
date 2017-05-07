@@ -1,0 +1,24 @@
+
+name:                dynagraph
+version:             0.1.0.0
+-- synopsis:            
+-- description:         
+license:             BSD3
+license-file:        LICENSE
+author:              Kyle Carter
+maintainer:          kylcarte@gmail.com
+copyright:           Copyright (c) 2017, Kyle Carter
+-- category:            
+build-type:          Simple
+extra-source-files:  ChangeLog.md
+cabal-version:       >=1.10
+
+library
+  exposed-modules:
+    Bindings.Dynagraph
+  -- other-modules:       
+  -- other-extensions:    
+  build-depends:
+    base >=4.9 && <4.10
+  hs-source-dirs:      src
+  default-language:    Haskell2010
