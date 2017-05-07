@@ -1,0 +1,3 @@
+[submodule "lib/dynagraph"]
+	path = lib/dynagraph
+	url = https://github.com/gordonwoodhull/dynagraph
